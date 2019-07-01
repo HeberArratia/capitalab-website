@@ -1,0 +1,32 @@
+#skills{
+	padding-bottom: 5px;
+	.title{
+		margin-bottom: 40px;
+	}
+	.subtitle{
+	}
+	#list-skills{
+		h3, p{
+			font-family: $bulma;
+		}
+		p{
+			line-height: 23px;
+			font-size: 1.1em;
+		}
+	}
+	.divider{
+		width: 100px;
+		height: 4px;
+	}
+}
+
+@media (max-width: 400px) {
+  #skills{
+  	.media {
+  		display: block !important;
+  		.media-content{
+  			margin-top: 20px;
+  		}
+  	}
+  }
+}

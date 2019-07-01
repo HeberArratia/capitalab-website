@@ -1,0 +1,27 @@
+// Variables para aplicarlas en font-weight
+  $light      : 300;
+  $normal     : 400;
+  $semi-bold  : 600;
+  $bold       : 700;
+  $extra-bold : 800;
+
+// PALETA DE COLOR
+  $black: #000;
+  $white: #fff;
+  $alternative: #D07193;
+  $background-color: #1C222F;
+
+// FUENTES     
+  $bulma : BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
+
+
+// Tema. Los componentes básicos de cualquier proyecto
+  @import "tema/main";
+  @import "tema/footer";
+  @import "tema/banner";
+  @import "tema/skills";
+  @import "tema/portafolio";
+
+
+// Modulos. Los componentes que se repiten en varias partes del proyecto
+  @import "modulos/modulos";
